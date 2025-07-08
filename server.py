@@ -58,3 +58,4 @@ class Handler(BaseHTTPRequestHandler):
 print("Servidor rodando em http://localhost:8080")
 httpd = HTTPServer(('0.0.0.0', 8080), Handler)
 httpd.serve_forever()
+# forçando novo deploy no Railway
